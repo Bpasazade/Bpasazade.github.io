@@ -32,7 +32,7 @@
 
 .image {
 	width: auto;
-	height: 175px;
+	height: 250px;
 	display: flex;
 	float: left;
 	margin-right: 10px;
@@ -41,6 +41,7 @@
 .main {
 	float: none;
 	text-align: justify;
+	font-size: 20px;
 }
 
 .head {
