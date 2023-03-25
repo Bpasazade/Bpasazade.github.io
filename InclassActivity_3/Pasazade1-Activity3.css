@@ -1,0 +1,54 @@
+.advertisement
+{
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+	position: absolute;
+	top: 10px;
+}
+
+.header {
+	height: 175px;
+	display: flex;
+	justify-content: center;
+	padding-left: 15%;
+	padding-right: 15%;
+	max-width: 70%;
+}
+
+.title {
+	white-space: nowrap;
+}
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+	max-width: 70%;
+}
+
+.image {
+	width: auto;
+	height: 175px;
+	display: flex;
+	float: left;
+	margin-right: 10px;
+}
+
+.main {
+	float: none;
+	text-align: justify;
+}
+
+.head {
+	max-width: 100%;
+	text-align: center;
+}
+
+a {
+	position: relative;
+	top: 210px;
+}
