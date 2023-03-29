@@ -1,0 +1,272 @@
+body {
+    background-color: #15171e;
+}
+
+.header {
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+    display: flex;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.name {
+    float: left;
+    font-size: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 65%;
+}
+
+.nav-bar {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    background-color: #23252b;
+    border-radius: 7px;
+    display: flex;
+}
+
+.nav-bar a {
+    float: left;
+    display: block;
+    color: #c2c2c4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+}
+
+.nav-bar a:hover {
+    background-color: grey;
+    color: #c2c2c4;
+}
+
+#current {
+    font-weight: bold;
+}
+
+.page-title {
+    margin-left: 55px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #c2c2c4;
+}
+
+.content {
+    overflow: hidden;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+}
+
+.recently-played {
+    background-color: #23252b;
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c2c2c4;
+    width: 20%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+#rp_icon {
+    width: 18px;
+    height: 18px;
+}
+
+.rp_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#re_games {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: #15171e 1px solid;
+    padding-bottom: 8px;
+}
+
+#head-cat {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+#feed {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: #c2c2c4 1px solid;
+    padding-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c2c2c4;
+    width: 98%;
+    margin-left: 20px;
+}
+
+.game-table {
+    overflow-x:auto;
+    margin-left: 40px;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td {
+    padding: .625em;
+    text-align: left;
+}
+
+.post-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #23252b;
+    border-radius: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c2c2c4;
+    font-weight: bold;
+}
+
+.post-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+}
+
+#pp {
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+    border: #15171e 1px solid;
+    margin: 10px;
+}
+
+.about_game {
+    margin: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #c2c2c4;
+    display: flex;
+    align-items: center;
+}
+
+#rp_icon{
+    margin-right: 4px;
+}
+
+.card-mid {
+    margin: 10px;
+    font-size: medium;
+    font-weight: normal;
+    color: #c2c2c4;
+}
+
+.like, .dislike {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+.card-bottom {
+    padding: 10px;
+}
+
+#like, #dislike{
+    width: 20px;
+    height: 20px;
+}
+
+.footer {
+    color: #c2c2c4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 7px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+}
+
+.f1 {
+    width: auto;
+    height: 40px;
+    display: block;
+}
+
+#twitter_logo {
+    width: 25px;
+    height: 25px;
+}
+
+.twitter-button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+#instagram_logo {
+    width: 25px;
+    height: 25px;
+}
+
+.instagram-button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+#up_arrow {
+    width: 30px;
+    height: 30px;
+}
+
+.up {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    float: right;
+}
+
+#copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #c2c2c4;
+}
