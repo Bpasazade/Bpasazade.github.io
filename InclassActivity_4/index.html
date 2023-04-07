@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .container{
+            width: 350px;
+            margin: 25px;
+            
+        }
+        .form{
+            width: 30%;
+        }
+        .rows{
+            width:100%;
+            display:block;
+        }
+        .col{
+            width: 100%;
+            height: 30px;
+            display: inline-block;
+            align-items: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .label{
+            width:30%;
+            float:left;
+           
+        }
+        .input{
+            width:72%;
+            height: 31px;
+            float:right;
+            border-radius:5px;
+        }
+        .input_text{
+            width:70%;
+            height: 27px;
+            float:right;
+            border-radius:5px;
+            border: 1px solid #000;
+        }
+        .input_text_area{
+            width:70%;
+            float:right;
+            border-radius:5px;
+            border: 1px solid #000;
+        }
+        .input_about{
+            width: 100%;
+            height: 75px;
+            display: inline-block;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+        .button {
+            margin-top: 10px;
+            margin-left: 100px;
+        }
+
+    </style>
+</head>
+<body>
+<form action="test.php" method="POST">
+    
+</form>
+
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="test.php" method="POST">
+        
+        <div class="rows">
+        
+            <div class="col">
+                <label>Name:</label>
+                <input class="input_text" type='text' name='name'><br/>
+            </div>
+            
+            
+            <div class="col">
+                <label>Username:</label>
+                <input class="input_text" type='text' name='username'><br/>
+            </div>
+
+            
+            <div class="col">
+                <label>Password:</label>
+                <input class="input_text" type='password' name='password'><br/>
+            </div>
+
+            <div class="col">
+                <label>Address: </label>
+                <input class="input_text" type='text' name='address'><br/>
+            </div>
+
+            <div class="col">
+                <label>Country: </label>
+                <select class="input" name="country">
+                    <option value="Turkey">Turkey</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                </select><br/>
+            </div>
+
+            <div class="col">
+                <label>ZIP Code: </label>
+                <input class="input_text" type='text' name='zip'><br/>
+            </div>
+
+            <div class="col">
+                <label>Email: </label>
+                <input class="input_text" type='text' name='email'><br/>
+            </div>
+
+            <div class="col">
+                <label>Sex: </label>
+                <div class="input">
+                    <input type="radio" name='gender' value='Male'/>
+                    <label>Male</label>
+                    <input type="radio" name='gender' value='Female'/>
+                    <label>Female</label><br/>
+                </div>
+            </div>
+
+            <div class="col">
+                <label>Language: </label>
+                <div class="input">
+                    <input type="checkbox" name='language[]' value='English'/>English
+                    <input type="checkbox" name='language[]' value='French'/>French
+                    <input type="checkbox" name='language[]' value='Germany'/>Germany<br/>
+                </div>
+            </div>
+
+            <div class="input_about">
+                <label>About: </label>
+                <textarea class="input_text_area" name='about' rows='5' cols='40'></textarea><br/>
+            </div>
+            <input type='submit' name='submit' value='submit' class="button">
+        </form>
+    </div>
+</body>
+</html>
+
