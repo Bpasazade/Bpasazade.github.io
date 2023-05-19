@@ -1,0 +1,293 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="store.css">
+    <link rel="stylesheet" type="text/css" href="../nav-bar/nav-bar.css">
+    <title>Store</title>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="purchase_script.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="price_tooltip.js"></script>
+</head>
+<body>
+    
+    <div class="header" id="header">
+        <div class="logo">
+            <img src="../Assets/Logo.png"  alt="Logo"/>
+        </div>
+        <div class="title">
+            <h1>Intelligent Orb</h1>
+        </div> 
+    </div>
+
+    
+    <div class="nav-bar">
+        <a href="../index.html">Home</a>
+        <a href="store.html" id="current">Store</a>
+        <a href="../Community/community.html">Community</a>
+        <a href="../About/about.html">About</a>
+        <button class="cart-div">
+            <img src="../Assets/Icons/cart.jpg" alt="Shopping Cart" id="cart"/>
+        </button>
+    </div>
+
+    <div class="cart-container">
+        <div class="shopping-cart">
+          <div class="shopping-cart-header">
+            <i class="fa fa-shopping-cart cart-icon"></i><span class="badge" id="total_num">0</span>
+            <div class="shopping-cart-total">
+              <span class="lighter-text">Total:</span>
+              <span class="main-color-text" id="total_price">0₺</span>
+            </div>
+          </div>
+      
+          <ul class="shopping-cart-items">
+            <li class="clearfix">
+              <span class="item-name"></span>
+              <span class="item-price"></span>
+            </li>
+          </ul>
+      
+          <a href="#" class="button-checkout">Checkout</a>
+        </div>
+    </div>
+
+
+
+    <h1 class="page-title">Store</h1>
+    <div class="content">
+        
+        <div class="categories">
+            <h3 id="categories">Categories</h3>
+            <ul>
+                <li id="head-cat">Action</li>
+                <li>Arcade & Rhythm</li>
+                <li>Fighting & Martial Arts</li>
+                <li>First-Person Shooter</li>
+                <li>Hack & Slash</li>
+                <li>Platformer & Runner</li>
+                <li>Third-Person Shooter</li>
+                <li id="head-cat">Role-Playing</li>
+                <li>Action RPG</li>
+                <li>Adventure RPG</li>
+                <li>JRPG</li>
+                <li>Party-Based</li>
+                <li>Rogue-Like</li>
+                <li>Strategy RPG</li>
+                <li>Turn-Based</li>
+                <li id="head-cat">Adventure</li>
+                <li>Adventure RPG</li>
+                <li>Casual</li>
+                <li>Hidden Object</li>
+                <li>Metroidvania</li>
+                <li>Puzzle</li>
+                <li>Story-Rich</li>
+                <li>Visual Novel</li>
+                <li id="head-cat">Sports & Racing</li>
+                <li>All Sports</li>
+                <li>Fishing & Hunting</li>
+                <li>Individual Sports</li>
+                <li>Racing</li>
+                <li>Racing Sim</li>
+                <li>Sports Sim</li>
+                <li>Team Sports</li>
+            </ul>
+        </div>
+
+        <div id="purchase-div" title="Purchase">
+            <p class="validateTips">All form fields are required.</p>
+            <form id="purchase-form">
+              <fieldset id="purchase-form">
+                <label for="card-name">Card Name</label></br>
+                <input type="text" name="card-name" id="card-name" value="" class="text ui-widget-content ui-corner-all"></br>
+                <label for="card-number">Card Number</label></br>
+                <input type="text" name="card-number" id="card-number" value="" class="text ui-widget-content ui-corner-all"></br>
+                <label for="card-exp">Card Expiration Date</label></br>
+                <div class="exp-date-div">
+                    <input type="text" name="card-exp" id="card-exp-m" value="" placeholder="MM" class="text ui-widget-content ui-corner-all"></br>
+                    <input type="text" name="card-exp" id="card-exp-y" value="" placeholder="YY" class="text ui-widget-content ui-corner-all"></br>
+                </div>
+                <label for="card-cvv">Card CVV</label></br>
+                <input type="text" name="card-cvv" id="card-cvv" value="" class="text ui-widget-content ui-corner-all"></br>
+                <label for="email">Email</label></br>
+                <input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all"></br>
+                <input type="submit" tabindex="-1" style="position:absolute; top:-500px">
+              </fieldset>
+            </form>
+        </div>
+
+        
+        <div class="game-table">
+            <div class="cursor"></div>
+            <table id="tabel">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="game-card">
+                                <div class="cover" id="cover_1"><img src="../Assets/cod_mw2.jpg" alt="Avatar" id="card-cover"></div>
+                                <div class="container">
+                                    <h4 id="name_1"><b>Call of Duty: MWII</b></h4>
+                                    <div class="price_buy">
+                                        <p id="price_1" title="">1099 ₺</p>
+                                        <button class="buy" id="buy_1">BUY</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </td>
+                        <td>
+                            <div class="game-card">
+                                <div class="cover" id="cover_2"><img src="../Assets/diablo_IV.png" alt="Avatar" id="card-cover"></div>
+                                    <div class="container">
+                                    <h4 id="name_2"><b>Diablo IV</b></h4>
+                                    <div class="price_buy">
+                                        <p id="price_2" title="">1299 ₺</p>
+                                        
+                                        <button class="buy" id="buy_2">BUY</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <script src="price_tooltip.js"></script>
+                        </td>
+                        <td>
+                            <div class="game-card">
+                                <div class="cover" id="cover_3"><img src="../Assets/hs.jpg" alt="Avatar" id="card-cover"></div>
+                                <div class="container">
+                                <h4 id="name_3"><b>Hearthstone</b></h4>
+                                <div class="price_buy">
+                                    <p id="price_3" title="">Free</p>
+                                    <button class="buy" id="buy_3">BUY</button>
+                                </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="game-card">
+                                <div class="cover" id="cover_4"><img src="../Assets/re_4.jpg" alt="Avatar" id="card-cover"></div>
+                                <div class="container">
+                                <h4 id="name_4"><b>Resident Evil 4</b></h4>
+                                <div class="price_buy">
+                                    <p id="price_4" title="">899 ₺</p>
+                                    <button class="buy" id="buy_4">BUY</button>
+                                </div>
+                                </div>
+                            </div>
+                        </td>
+                        
+                        <td>
+                            <div class="game-card">
+                                <div class="cover" id="cover_5"><img src="../Assets/limbo.jpg" alt="Avatar" id="card-cover"></div>
+                                <div class="container">
+                                    <h4 id="name_5"><b>LIMBO</b></h4>
+                                    <div class="price_buy">
+                                    <p id="price_5" title="">69 ₺</p>
+                                    <button class="buy" id="buy_5">BUY</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="game-card">
+                                <div class="cover" id="cover_6"><img src="../Assets/do_2.jpg" alt="Avatar" id="card-cover"></div>
+                                <div class="container">
+                                <h4 id="name_6"><b>Divinity 2: Original Sin</b></h4>
+                                <div class="price_buy">
+                                    <p id="price_6" title="">70 ₺</p>
+                                    <button class="buy" id="buy_6">BUY</button>
+                                </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="game-card">
+                                <div class="cover" id="cover_7"><img src="../Assets/dota_2.jpg" alt="Avatar" id="card-cover"></div>
+                                <div class="container">
+                                <h4 id="name_7"><b>Dota 2</b></h4>
+                                <div class="price_buy">
+                                    <p id="price_7" title="">Free</p>
+                                    <button class="buy" id="buy_7">BUY</button>
+                                </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="game-card">
+                                <div class="cover" id="cover_8"><img src="../Assets/sbf_2.jpeg" alt="Avatar" id="card-cover"></div>
+                                <div class="container">
+                                <h4 id="name_8"><b>Star Wars: Battle Front II</b></h4>
+                                <div class="price_buy">
+                                    <p id="price_8" title="">249 ₺</p>
+                                    <button class="buy" id="buy_8">BUY</button>
+                                </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="game-card">
+                                <div class="cover" id="cover_9"><img src="../Assets/hk.webp" alt="Avatar" id="card-cover"></div>
+                                <div class="container">
+                                <h4 id="name_9"><b>Hollow Knight</b></h4>
+                                <div class="price_buy">
+                                    <p id="price_9" title="">142 ₺</p>
+                                    <button class="buy" id="buy_9">BUY</button>
+                                </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="game-card">
+                                <div class="cover" id="cover_10"><img src="../Assets/hades.webp" alt="Avatar" id="card-cover"></div>  
+                                <div class="container">
+                                    <h4 id="name_10"><b>Hades</b></h4>
+                                    <div class="price_buy">
+                                    <p id="price_10" title="">235 ₺</p>
+                                    <button class="buy" id="buy_10">BUY</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td colspan="5">
+                            <p  id="table-footer">&larr; <a href="store.html">1</a> 2 3 4 &rarr;</p>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+            <script src="card_hover_script.js"></script>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="f1">
+            <button class="twitter-button">
+                <img src="../Assets/twitter_logo.png"  alt="Twitter Logo" id="twitter_logo"/>
+            </button>
+            <button class="instagram-button">
+                <img src="../Assets/instagram_logo.png"  alt="Instagram Logo" id="instagram_logo"/>
+            </button>
+            <button class="up">
+                <a href="#">
+                    <img src="../Assets/up.png" alt="Up Arrow" id="up_arrow"/>
+                </a>
+            </button>
+        </div>
+        
+        <p id="copyright">© 2023, Intelligent Orb, Inc. All rights reserved.</p>
+        
+    </div>
+</body>
+</html>

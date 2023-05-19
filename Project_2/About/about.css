@@ -1,0 +1,118 @@
+body {
+    background-color: #15171e;
+}
+
+.header {
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+    display: flex;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.name {
+    float: left;
+    font-size: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 65%;
+}
+
+.page-title {
+    margin-left: 55px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #c2c2c4;
+}
+
+.content {
+    overflow: hidden;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+}
+
+#about_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #c2c2c4;
+    margin-right: 50px;
+}
+
+#about_img {
+    width: auto;
+    height: auto;
+    border-radius: 7px;
+}
+
+.footer {
+    color: #c2c2c4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 7px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+}
+
+.f1 {
+    width: auto;
+    height: 40px;
+    display: block;
+}
+
+#twitter_logo {
+    width: 25px;
+    height: 25px;
+}
+
+.twitter-button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+#instagram_logo {
+    width: 25px;
+    height: 25px;
+}
+
+.instagram-button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+#up_arrow {
+    width: 30px;
+    height: 30px;
+}
+
+.up {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    float: right;
+}
+
+#copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #c2c2c4;
+}
