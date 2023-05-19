@@ -64,7 +64,7 @@ jQuery1(document).ready(function() {
         valid = valid && checkLength_m( card_exp_m, "cardexpm", 1, 2);
         valid = valid && checkLength_s( card_exp_y, "cardexpy", 2);
         valid = valid && checkLength_s( card_cvv, "cardcvv", 3);
-        valid = valid && checkRegexp( card_name, /^[a-z]([0-9a-z_\s])+$/i, "Username may consist of a-z, 0-9, underscores, spaces and must begin with a letter." );
+        valid = valid && checkRegexp( card_name, /^[a-z]([0-9A-Za-z_\s])+$/i, "Username may consist of a-z, 0-9, underscores, spaces and must begin with a letter." );
         valid = valid && checkRegexp( card_number, /^([0-9])+$/, "Card number may consist of 0-9." );
         valid = valid && checkRegexp( card_exp_m, /^([0-9])+$/, "Card expiration month may consist of 0-9." );
         valid = valid && checkRegexp( card_exp_y, /^([0-9])+$/, "Card expiration year may consist of 0-9." );
