@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('#nav_list ul li a').click(function () {
+        $("main").empty();
         var title = $(this).attr("title");
         $.getJSON('json_files/' + title +'.json', function (data) {
             console.log(data);
