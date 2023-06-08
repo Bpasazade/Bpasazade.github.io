@@ -1,0 +1,14 @@
+{
+    "reviews": [
+        {
+            "nickname": "b.pasazade",
+            "profile_pic": "imgs/1.png",
+            "rating": 4,
+            "game": "Call of Duty: MWII",
+            "game_icon": "imgs/icons/MWII.jpg",
+            "review": "Normally into looter shooters but finally after all this time tried COD with playing DMZ and slowly started to like it...one thing that is hurting the game is the 6 man squads that meet up and join each other and go hunting but overall liking DMZ...need PVE though as another option. There are many gameplay modes for everyone that like this type of game.",
+            "likes": 10,
+            "dislikes": 2
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "reviews": [
+        {
+            "nickname": "♣Rev♣",
+            "profile_pic": "./imgs/2.png",
+            "rating": 5,
+            "game": "Dota 2",
+            "game_icon": "./imgs/icons/dota_2.jpg",
+            "review": "Before I played Dota 2, I had no friends, no girlfriend, depression, and absolutely no life. These things haven't changed much, but the game is pretty good and from it I've become fluent in 6 different languages.",
+            "likes": 150,
+            "dislikes": 0
+        }
+    ]
+}

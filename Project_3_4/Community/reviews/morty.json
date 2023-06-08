@@ -1,0 +1,14 @@
+{
+    "reviews": [
+        {
+            "nickname": "Morty",
+            "profile_pic": "imgs/4.png",
+            "rating": 2,
+            "game": "Heartstone",
+            "game_icon": "imgs/icons/hs.png",
+            "review": "Worst gameplay and weak mechanics. The most unbalanced and casual game with elements of randomness. You can win even if you play better than your opponent. Hidden pool.",
+            "likes": 10,
+            "dislikes": 20
+        }
+    ]
+}

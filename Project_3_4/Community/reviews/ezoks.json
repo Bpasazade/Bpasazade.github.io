@@ -1,0 +1,14 @@
+{
+    "reviews": [
+        {
+            "nickname": "Ezoks",
+            "profile_pic": "imgs/3.png",
+            "rating": 4,
+            "game": "Diablo 4",
+            "game_icon": "imgs/icons/diablo_IV.webp",
+            "review": "What is happening, how is this possible. It seems that Blizzard is about to release a virtually universally praised product. Weird times to be alive, but GREAT times for Diablo fans!",
+            "likes": 15,
+            "dislikes": 0
+        }
+    ]
+}
