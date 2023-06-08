@@ -1,0 +1,22 @@
+// Author: Hasan Basri Paşazade
+// Date: 08.08.2023
+Summary Document: 
+	1. Meeting the specifications: Website has 4 pages:
+		- Home Page: Only HTML and CSS is used.
+		- Navigation Bar: navigation bar is a common area of every other page. We can change nav bar from one file and it changes in every page that used it.
+		- Store Page: 
+		  * 3 jQuery-UI widgets. 
+			1. Tooltip widget. shows a little message of price for dollars.
+			2. Shopping cart drop down menu. It can be opened and closed by clicking on the cart icon.
+			   When user clicks "BUY" button on game cards. Games are automatically dropped to the shopping cart.
+			3. Purchase modal widget. Requires Card name, number, expiration date and cvv. Alerts errors if one or more of the inputs are invalid.
+		  * 1 jQuery plugin: Preview hover screen on cards of the games.
+		  * 1 Externel AJAX request that fetches the current currency of Turkish Lira - U.S Dollars to show up-to-date currency of prices of the games.
+		- Community Page: Includes a local JSON request to get post objects. A post card is divided by 3 parts. 
+				  Top part includes name and profile picture of user and game name which is talked about.
+				  Middle part includes the maing text.
+				  Bottom part includes like and dislike buttons. User can increade the number of likes and disliked by clicking on it.
+	2. Intelligent Orb is meets the need of getting latest information and news of every kind of game. 
+	   Website also gives the opportunity to purchase the most and newest games in store.
+	   The biggest flaw of this website is membership, and I would like to implement this in future.
+
